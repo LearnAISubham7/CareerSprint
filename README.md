@@ -15,8 +15,8 @@ using **recurring routines**, **custom tasks**, a **focus timer**, and a complet
 
 ## 🌐 Live Demo
 
-- Frontend: https://YOUR_VERCEL_LINK
-- Backend: https://YOUR_RENDER_LINK
+- Frontend: https://career-sprint-omega.vercel.app/
+- Backend: https://careersprint-backend.onrender.com/
 
 ## 🎥 Demo Video
 

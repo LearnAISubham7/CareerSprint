@@ -21,3 +21,23 @@ body {
   background: var(--bg);
   color: var(--text);
 }
+
+.color-empty {
+  fill: var(--border);
+}
+
+.color-scale-1 {
+  fill: #4ade80;
+}
+
+.color-scale-2 {
+  fill: #22c55e;
+}
+
+.color-scale-3 {
+  fill: #16a34a;
+}
+
+.color-scale-4 {
+  fill: #166534;
+}

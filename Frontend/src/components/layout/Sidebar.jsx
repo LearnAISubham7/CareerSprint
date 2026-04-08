@@ -1,12 +1,13 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import { CalendarDays, Clock, Plus, Repeat2, X } from "lucide-react";
+import { CalendarDays, Clock, Plus, Repeat2, X, User } from "lucide-react";
 
 const navItems = [
   { to: "/app/today", label: "Today", icon: CalendarDays },
   { to: "/app/create", label: "Create", icon: Plus },
   { to: "/app/templates", label: "Recurring", icon: Repeat2 },
   { to: "/app/history", label: "History", icon: Clock },
+  { to: "/app/profile", label: "Profile", icon: User },
 ];
 
 export default function Sidebar({ isMobile = false, onClose }) {

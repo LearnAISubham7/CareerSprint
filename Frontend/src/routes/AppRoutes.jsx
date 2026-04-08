@@ -13,6 +13,7 @@ import Today from "../pages/app/Today";
 import CreateTask from "../pages/app/CreateTask";
 import History from "../pages/app/History";
 import Templates from "../pages/app/Templates";
+import Profile from "../pages/Profile";
 
 export default function AppRoutes() {
   return (
@@ -73,6 +74,14 @@ export default function AppRoutes() {
         element={
           <ProtectedRoute>
             <History />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/app/profile"
+        element={
+          <ProtectedRoute>
+            <Profile />
           </ProtectedRoute>
         }
       />

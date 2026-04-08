@@ -7,6 +7,7 @@ import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
 import templateRoutes from "./routes/templateRoutes.js";
 import taskRoutes from "./routes/taskRoutes.js";
+import userRoutes from "./routes/userRoutes.js";
 
 dotenv.config();
 connectDB();
@@ -26,6 +27,7 @@ app.use(cookieParser());
 app.use("/api/auth", authRoutes);
 app.use("/api/templates", templateRoutes);
 app.use("/api/tasks", taskRoutes);
+app.use("/api/users", userRoutes);
 
 app.get("/", (req, res) => {
   res.send("Placement Planner API running...");
